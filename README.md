@@ -1,4 +1,4 @@
-Wethinkcode Homebrew
+WeThinkCode_ Homebrew
 ===============
 
 This script installs Homebrew in your $HOME.
