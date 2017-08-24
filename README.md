@@ -1,18 +1,16 @@
-WTC Homebrew Fix
+Wethinkcode Homebrew
 ===============
 
-This script installs Homebrew properly in your home on your 42 session.
+This script installs Homebrew in your $HOME.
 
-It fixes the `flock` issue due to NFS mount of your home directory.
-
-It will also move all temporary Homebrew data (`Temp`, `Cache`, `Locks`) to a dedicated folder in `/tmp`, leaving your home directory cleaner, so it's useful even if you're on the new ISCSI sessions that support `flock` operations. 
+It will also move all temporary Homebrew data (`Temp`, `Cache`, `Locks`) to a dedicated folder in `/tmp`, leaving your home directory cleaner.
 
 
 Install
 -------
 Run this command from your terminal:
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Tolsadus/42homebrewfix/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/wethinkcode/homebrewfix/master/install.sh)"
 ```
 
 How it works
