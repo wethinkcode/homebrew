@@ -10,7 +10,7 @@ Install
 -------
 Run this command from your terminal:
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/wethinkcode/homebrewfix/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/wethinkcode/homebrew/master/install.sh)"
 ```
 
 How it works
