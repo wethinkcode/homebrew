@@ -1,12 +1,10 @@
-
-      #########.
-     ########",#:
-   #########',##".
-  ##'##'## .##',##.
-   ## ## ## # ##",#.
-    ## ## ## ## ##'
-     ## ## ## :##
-      ## ## ##."
+    :::       ::: ::::::::::: :::::::: 
+   :+:       :+:     :+:    :+:    :+: 
+  +:+       +:+     +:+    +:+         
+ +#+  +:+  +#+     +#+    +#+          
++#+ +#+#+ +#+     +#+    +#+           
+#+#+# #+#+#      #+#    #+#    #+#     
+###   ###       ###     ########       
 
 # Delete and reinstall Homebrew from Github repo
 rm -rf $HOME/.brew
@@ -54,7 +52,7 @@ EOL
 fi
 
 source $HOME/.brew_fix.zsh
-echo "brew update might take some time, please be patient"
+echo "\033[0;31mbrew update might take some time, please be patient"
 brew update
-
-echo "Please open a new terminal to apply modifications"
+brew upgrade
+echo "\033[0;32mPlease open a new terminal to apply modifications"
