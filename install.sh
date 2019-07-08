@@ -44,7 +44,7 @@ EOL
 fi
 
 source $HOME/.brew_fix.zsh
-echo "\033[0;31mbrew update might take some time, please be patient"
+echo "\033[0;31mbrew update might take some time, please be patient\0[0m"
 brew update
 brew upgrade
-echo "\033[0;32mPlease open a new terminal to apply modifications"
+echo "\033[0;32mPlease open a new terminal to apply modifications\0[0m"
