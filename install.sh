@@ -44,7 +44,11 @@ EOL
 fi
 
 source $HOME/.brew_fix.zsh
-echo "\033[0;31mbrew update might take some time, please be patient\0[0m"
+echo "\033[0;31mbrew update might take some time, please be patient\033[0m"
 brew update
 brew upgrade
-echo "\033[0;32mPlease open a new terminal to apply modifications\0[0m"
+. ~/.zshrc
+source ~/.zshrc
+echo "\033[0;32mHomebrew is now ready. Run brew --help to see homebrew options.\033[0m"
+
+
